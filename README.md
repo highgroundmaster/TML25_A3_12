@@ -27,7 +27,7 @@ Our solution focused on **adversarial training** with hybrid attack generation a
 
 ```python
 EPOCHS = 30 # number of epochs
-LEARNING_RATE = 0.075 
+LEARNING_RATE = 0.09
 WEIGHT_DECAY = 1e-4
 FGSM_EPSILON = 0.03 # FGSM Attack strength
 PGD_EPSILON = 0.03 # PGD Attack Strength
